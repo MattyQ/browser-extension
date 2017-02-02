@@ -97,7 +97,7 @@ function HypothesisChromeExtension(dependencies) {
       return;
     }
 
-    chromeTabs.create({url: 'https://hypothes.is/welcome'}, function (tab) {
+    chromeTabs.create({url: 'http://docs.lab.tenablesecurity.com:5000/welcome'}, function (tab) {
       state.activateTab(tab.id);
     });
   };

@@ -57,7 +57,7 @@ function onInstalled(installDetails) {
   // See https://github.com/hypothesis/h/issues/634 for more info.
   // This is intended to be a temporary fix only.
   var details = {
-    primaryPattern: 'https://hypothes.is/*',
+    primaryPattern: 'http://docs.lab.tenablesecurity.com:5000/*',
     setting: 'allow',
   };
   chrome.contentSettings.cookies.set(details);

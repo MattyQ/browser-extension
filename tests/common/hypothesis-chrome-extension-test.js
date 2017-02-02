@@ -168,7 +168,7 @@ describe('HypothesisChromeExtension', function () {
       ext.firstRun({});
       assert.called(fakeChromeTabs.create);
       assert.calledWith(fakeChromeTabs.create, {
-        url: 'https://hypothes.is/welcome',
+        url: 'http://docs.lab.tenablesecurity.com:5000/welcome',
       });
     });
 

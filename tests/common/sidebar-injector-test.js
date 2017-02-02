@@ -152,7 +152,7 @@ describe('SidebarInjector', function () {
       });
 
       it('reports an error if Hypothesis is already embedded', function () {
-        embedScriptReturnValue = {installedURL: 'https://hypothes.is/app.html'};
+        embedScriptReturnValue = {installedURL: 'http://docs.lab.tenablesecurity.com:5000/app.html'};
         var url = 'http://example.com';
         return toResult(injector.injectIntoTab({id: 1, url: url}))
           .then(function (result) {
