@@ -1,4 +1,4 @@
-SETTINGS_FILE := settings/chrome-dev.json
+SETTINGS_FILE := settings/chrome-prod.json
 
 BROWSERIFY := node_modules/.bin/browserify
 ESLINT := node_modules/.bin/eslint
